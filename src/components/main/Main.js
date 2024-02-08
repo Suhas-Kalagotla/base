@@ -6,6 +6,7 @@ import twitter from "../../images/twitter.svg"
 import linkedin from "../../images/linkedin.svg"
 import discord from "../../images/discord.svg"
 import LoginBox from "../loginBox/LoginBox.js"
+import {Link} from "react-router-dom"
 
 const Main = () => {
     return (
@@ -43,7 +44,7 @@ const Main = () => {
                 <input type="password"/>
                 </div>
                 <a className="forgot">Forgot Password?</a>
-                <button>Sign In</button>
+                <Link to="/home"><button>Sign In</button></Link>
                 </div>
                 <div className="register">
                 <p><span className="account">Don't have an account? </span><span className="registerColor">Register here</span></p>
