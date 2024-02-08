@@ -6,6 +6,7 @@ import user from "../../images/user.svg"
 import excel from "../../images/excel.svg"
 import uploadFile from "../../images/uploadFile.svg"
 import {Link } from "react-router-dom" 
+import Table from "../table/Table.js"
 
 const Home= () =>{
     return(
@@ -19,6 +20,7 @@ const Home= () =>{
                     <img src={user}/>                    
                 </div>
                 </div>
+            <div className="uploadContainer">
             <div className="uploading">
                 <div className="fileUpload">
                     <img src = {excel}/><br/>
@@ -26,7 +28,8 @@ const Home= () =>{
                 </div>
                 <button><img src={uploadFile}/>Upload</button>
             </div>
-            
+            </div>
+            <Table/>            
             </div>
         </div>
     );
