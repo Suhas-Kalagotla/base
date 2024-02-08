@@ -1,0 +1,151 @@
+*{
+    maring:0; 
+    padding:0; 
+}
+
+.main{
+    display:flex; 
+    background:linear-gradient(100deg,#605bff, #605bff 45%,#f8faff 40%);
+
+}
+.left{
+    width:50%;
+    height:100%;
+    min-height:100vh;
+    display:flex; 
+    justify-content:space-around;
+    flex-direction:column;
+}
+
+.left h2 {
+    font-size:7em;
+    color:white;
+}
+
+.left img{
+    align-items:left;
+    filter: brightness(0) saturate(100%) invert(90%) sepia(71%) saturate(7500%) hue-rotate(180deg) brightness(112%) contrast(104%);
+    width:5em; 
+    height:5em;
+}
+
+.socialMedia {
+    display:flex; 
+    gap:3rem;
+}
+
+.socialMedia img {
+    width:3em;
+    height:3em;
+}
+
+.title{
+    display:flex;
+    flex-direction:column;
+    margin:auto; 
+    width:50%;
+    gap:12em;
+}
+
+.logo{
+    margin:5%; 
+}
+
+.right{
+    position:relative; 
+    width:50%; 
+    height:100%; 
+    min-height:100vh; 
+}
+
+.login{
+    margin : 30% auto;
+    width:70%; 
+    height:50%;
+    min-height:50em;
+}
+
+.heading h2 {
+    font-size:3em;
+    padding:0;
+    margin:0;
+}
+
+.container {
+    background-color : #ffffff;
+    padding:5%; 
+    width:80%; 
+    border-radius:25px; 
+    box-sizing:border-box;
+}
+
+.container button{
+    display:block; 
+    text-align:center; 
+    width:100%; 
+    border:none; 
+    background-color:#605bff;
+    border-radius:15px; 
+    padding:2.5%; 
+    color:white;
+    font-size:1.5em;
+    font-weight:bold;
+    margin-top:1rem;
+}
+
+.field {
+    display:flex; 
+    flex-direction:column; 
+    gap:0.1rem;
+    justify-content:flex-around;
+    padding:0.25rem;
+    padding-top:0rem;
+    font-size:1.25rem;
+}
+
+.field label{
+    padding-top:0rem;
+    padding:1rem 0; 
+}
+
+.field input{
+    width:cal(100%-0.25rem);
+    height:3em;
+    border:none; 
+    background-color:#f5f5f5; 
+    border-radius:10px; 
+    padding:0 1rem;
+    font-size:16px;
+}
+
+.field input:hover{
+    background-color:#eaeaea;
+    border:none;
+}
+.field input:focus{
+    background-color:#eaeaea;
+    border:none;
+    outline:none;
+}
+
+.forgot{
+    font-size:18px;
+    color:blue;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+.register{
+    margin-top:2rem;
+    width:80%; 
+    text-align:center;
+    font-size:20px;
+}
+
+.account{
+    color:#858585;
+}
+.registerColor{
+    color:#605bff;
+}
+
